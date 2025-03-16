@@ -1,0 +1,101 @@
+body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #dfe9f3, #ffffff);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            flex-direction: column;
+        }
+        .header {
+            font-size: 28px;
+    		font-weight: bold;
+    		text-align: center;
+    		color: #444;
+    		width: 100%;
+    		position: absolute;
+    		top: 20px; /* Adjust based on preference */
+    		left: 50%;
+    		transform: translateX(-50%);
+        }
+        .container {
+            display: flex;
+            background: url('admin_background.jpg') no-repeat center center/cover;
+            border-radius: 10px;
+            overflow: hidden;
+            width: 800px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .left-panel {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+        }
+        .left-panel img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        .right-panel {
+            background: rgba(100, 181, 246, 0.8);
+            color: #333;
+            padding: 50px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .right-panel h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: #444;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            width: 100%;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 15px;
+            font-weight: normal;
+            color: #333;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: #1565c0;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            font-size: 14px;
+            font-weight: normal;
+        }
+        .btn:hover {
+            background: #1976d2;
+        }
+        .back-link {
+            margin-top: 10px;
+            text-align: center;
+        }
+        .back-link a {
+            color: #333;
+            text-decoration: none;
+            font-weight: normal;
+        }
